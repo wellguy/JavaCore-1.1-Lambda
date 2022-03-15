@@ -13,6 +13,14 @@ public class Main {
         int c = calc.devide.apply(a, b);
         calc.printlin.accept(c);
 
+        int d = calc.pow.apply(a);
+        calc.printlin.accept(d);
+
+        int e = calc.abs.apply(-a);
+        calc.printlin.accept(a + e);
+
+        boolean check =  calc.isPositive.test(e);
+        System.out.println(check);
 
     }
 }
